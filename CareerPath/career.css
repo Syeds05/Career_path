@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* menu */
+#parent{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(9, 75, 218);
+    display: flex;
+    position: fixed;
+
+
+}
+#child1,#child2{
+    width: 50%;
+    height: 50px;
+    background-color: brown;
+    text-decoration: none;
+    padding-top: 10px;
+    color: white;
+    padding-left: 10px;
+      
+}
+#a1{
+     margin: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+} 
+/* #a1:hover{
+   background-color: blue;
+   color: white;
+   
+
+} */
+ /* marquee */
+ #mar12{
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    padding-top: 10px;
+    color: white;
+ }
+ #ima12{
+    background-color: yellow;
+    width: 100%;
+    height: 300px;
+    background-image: url(../Resume_hover/images/education.webp);
+    text-align: center;
+    padding-top: 150px;
+    color: yellow;
+    border-radius: 10px;
+ }
+ /* job categories */
+ #job{
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    
+ }
+ #h11{
+    color: white;
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    color: black;
+    
+    
+
+ }
+ #botchild1{
+    width: 100%;
+    height: 300px;
+    background-color:white;
+ }
+ #b2{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+ }
+ /* software job */
+  
+ #job1{
+    background-color: aqua;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+    
+ }
+ #h111{
+    color: white;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    color: black;
+
+ }
+ #botchild11{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+    border-radius: 10px;
+    color: white;
+ }
+  table{
+    width: 100%;
+    height: 200px;
+    border: 4px  ;
+    border-radius: 10px;
+    color: black;
+    border-left: none;
+    border-right: none;
+    
+    
+ 
+  }
+  th{
+    background-color: black;
+    color: white;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px solid ;
+    
+   }
+
+  /* Marketing Jobs */
+  #job12{
+    background-color:green;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+ }
+ #h1112{
+    color: white;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    color: black;
+
+ }
+ #botchild112{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+   border-radius: 10px;
+
+ }
+  table{
+    width: 100%;
+    height: 200px;
+    border: 4px  ;
+
+  }
+  #h13{
+    background-color: black;
+    color: white;
+  }
+  /* Finance */
+   #job123{
+    background-color:rgb(108, 23, 205);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+ }
+ #h11123{
+    color: white;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    color: black;
+
+ }
+ #botchild1123{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+   border-radius: 10px;
+
+ }
+  table{
+    width: 100%;
+    height: 200px;
+    border: 4px  ;
+
+  }
+  #h133{
+    background-color: black;
+    color: white;
+  }
+  /* HR Jobs*/
+   #job1234{
+    background-color:red;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+ }
+ #h111234{
+    color: white;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    color: black;
+
+ }
+ #botchild11234{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+   border-radius: 10px;
+
+ }
+  table{
+    width: 100%;
+    height: 200px;
+    border: 4px  ;
+
+  }
+  #h1334{
+    background-color: black;
+    color: white;
+  }
+  /* h1 */
+  #s1,#s12,#s13,#s14{
+   color: white;
+  }
+  /* Designe Jobs */
+   #job12346{
+    background-color:lawngreen;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+ }
+ #h1112346{
+    color: white;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    color: black;
+
+ }
+ #botchild112346{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+    border-radius: 10px;
+ }
+  table{
+    width: 100%;
+    height: 200px;
+    border: 4px  ;
+
+  }
+  #h13346{
+    background-color: black;
+    color: white;
+  }
+  /* apply for a  Job */
+   #job12345{
+    background-color:wheat;
+    width: 100%;
+    height: 350px;
+    display: flex;
+     border-radius: 10px;
+     
+ }
+ #h22{
+    text-align: center;
+ }
+ #h1112345{
+    color: white;
+    width: 95%;
+    height: 200px;
+     color: black;
+
+ }
+ #botchild112345{
+    width: 100%;
+    height: 300px;
+    /* background-color: orange; */
+    margin-left: 20px;
+    border-radius: 10px;
+    
+ }
+ #sub1{
+   width: 100px;
+   height: 40px;
+   border-radius: 10px;
+ }
+   
+  
+  #h13345{
+    background-color:purple;
+  }
+  #f12{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+  }
+  input[type="submit"]:hover {
+    background-color: darkblue;
+    transform: scale(1.05);
+}
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+  #a1:hover {
+    /* background-color: darkblue; */
+    transform: scale(1.05);
+}
+#a1:hover {
+       background-color: blue;
+
+     color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+  footer{
+    background-color: aqua;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+  }
